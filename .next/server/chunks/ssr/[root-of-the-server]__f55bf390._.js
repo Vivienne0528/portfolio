@@ -32,7 +32,7 @@ const Hero = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                className: "text-[#FF8000] text-5xl",
+                className: "text-[#FF8000] text-6xl font-[serif]",
                 children: "full stack developer"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
@@ -40,7 +40,7 @@ const Hero = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                className: "text-5xl",
+                className: "text-6xl font-[serif]",
                 children: "with a strong sense of"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
@@ -48,7 +48,7 @@ const Hero = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                className: "text-[#FF8000] text-5xl",
+                className: "text-[#FF8000] text-6xl font-[serif]",
                 children: "ui/ux design"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
@@ -67,7 +67,7 @@ const Hero = ()=>{
                 children: "Database (MySQL, MongoDB), DevOps (Git, Docker), and UI Design."
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 11,
+                lineNumber: 14,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -78,13 +78,13 @@ const Hero = ()=>{
                         children: "Contact me →"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 15,
+                        lineNumber: 17,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                         className: "btn btn-xl text-[#FF8000] bg-[#FFFFFF] text-xl rounded-[50px] w-50 font-light",
                         children: [
-                            "My Resume ",
+                            "My Resume",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/download.jpg",
                                 alt: "Download Icon",
@@ -92,19 +92,19 @@ const Hero = ()=>{
                                 height: 20
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/Hero.tsx",
-                                lineNumber: 16,
-                                columnNumber: 125
+                                lineNumber: 22,
+                                columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 16,
+                        lineNumber: 20,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 13
             }, this)
         ]
@@ -134,7 +134,7 @@ const Mode = ()=>{
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Mode.tsx",
                 lineNumber: 6,
-                columnNumber: 13
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
                 className: "swap-off h-10 w-10 fill-current",
@@ -145,12 +145,12 @@ const Mode = ()=>{
                 }, void 0, false, {
                     fileName: "[project]/src/pages/components/Mode.tsx",
                     lineNumber: 14,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Mode.tsx",
                 lineNumber: 9,
-                columnNumber: 13
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
                 className: "swap-on h-10 w-10 fill-current",
@@ -161,18 +161,18 @@ const Mode = ()=>{
                 }, void 0, false, {
                     fileName: "[project]/src/pages/components/Mode.tsx",
                     lineNumber: 23,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Mode.tsx",
                 lineNumber: 18,
-                columnNumber: 13
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/components/Mode.tsx",
         lineNumber: 4,
-        columnNumber: 9
+        columnNumber: 5
     }, this);
 };
 const __TURBOPACK__default__export__ = Mode;
@@ -202,14 +202,14 @@ const NavBar = ()=>{
                         children: "."
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/NavBar.tsx",
-                        lineNumber: 6,
-                        columnNumber: 62
+                        lineNumber: 7,
+                        columnNumber: 18
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/components/NavBar.tsx",
                 lineNumber: 6,
-                columnNumber: 13
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
                 className: "text-xl flex justify-between p-2 border-1 rounded-full w-[600px]",
@@ -219,47 +219,47 @@ const NavBar = ()=>{
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/NavBar.tsx",
-                        lineNumber: 8,
-                        columnNumber: 17
+                        lineNumber: 10,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                         children: "About me"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/NavBar.tsx",
-                        lineNumber: 9,
-                        columnNumber: 17
+                        lineNumber: 11,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                         children: "My work"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/NavBar.tsx",
-                        lineNumber: 10,
-                        columnNumber: 17
+                        lineNumber: 12,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
                         className: "mr-3",
                         children: "Contact me"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/NavBar.tsx",
-                        lineNumber: 11,
-                        columnNumber: 17
+                        lineNumber: 13,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/components/NavBar.tsx",
-                lineNumber: 7,
-                columnNumber: 13
+                lineNumber: 9,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$components$2f$Mode$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/components/NavBar.tsx",
-                lineNumber: 13,
-                columnNumber: 13
+                lineNumber: 15,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/components/NavBar.tsx",
         lineNumber: 5,
-        columnNumber: 9
+        columnNumber: 5
     }, this);
 };
 const __TURBOPACK__default__export__ = NavBar;
@@ -284,18 +284,18 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$components$2f$NavBar$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/index.tsx",
-                lineNumber: 8,
+                lineNumber: 7,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$components$2f$Hero$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/index.tsx",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/index.tsx",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
