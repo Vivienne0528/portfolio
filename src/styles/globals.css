@@ -2,7 +2,13 @@
 @plugin "daisyui" {
   themes:
     light --default,
-    dark --dark;
+    abyss --dark;
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #fbf8ef;
+  --color-secondary: #001e29;
 }
 
 body {
