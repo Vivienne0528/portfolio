@@ -4,7 +4,9 @@ const Hero = () => {
         <>
             <section className="p-10 font-extralight">Hi! I’m Vivienne Gu 👋🏻</section>
 
-            <p className="text-[#FF8000] text-6xl font-[serif]">full stack developer</p>
+            <p className="text-[#FF8000] text-6xl font-[serif]">
+                full stack developer
+            </p>
             <p className="text-6xl font-[serif]">with a strong sense of</p>
             <p className="text-[#FF8000] text-6xl font-[serif]">ui/ux design</p>
             <p className="pt-10">
