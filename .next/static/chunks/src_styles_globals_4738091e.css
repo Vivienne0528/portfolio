@@ -129,6 +129,7 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
     --radius-xl: .75rem;
     --radius-2xl: 1rem;
     --shadow-sm: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
@@ -2594,6 +2595,10 @@
     margin: calc(var(--spacing) * 10);
   }
 
+  .m-auto {
+    margin: auto;
+  }
+
   .filter {
     flex-wrap: wrap;
     display: flex;
@@ -2721,6 +2726,10 @@
     margin-top: calc(var(--spacing) * 5);
   }
 
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
   }
@@ -2759,6 +2768,10 @@
 
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
+  }
+
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
   }
 
   .ml-2 {
@@ -3220,12 +3233,20 @@
     height: 24rem;
   }
 
+  .h-\[40px\] {
+    height: 40px;
+  }
+
   .h-\[48px\] {
     height: 48px;
   }
 
   .h-\[50px\] {
     height: 50px;
+  }
+
+  .h-\[200px\] {
+    height: 200px;
   }
 
   .h-px {
@@ -3296,6 +3317,10 @@
     width: calc(var(--spacing) * 250);
   }
 
+  .w-\[100px\] {
+    width: 100px;
+  }
+
   .w-\[160px\] {
     width: 160px;
   }
@@ -3312,8 +3337,16 @@
     width: 832px;
   }
 
+  .w-\[900px\] {
+    width: 900px;
+  }
+
   .w-full {
     width: 100%;
+  }
+
+  .max-w-\[1280px\] {
+    max-width: 1280px;
   }
 
   .flex-shrink {
@@ -3389,6 +3422,10 @@
 
   .resize {
     resize: both;
+  }
+
+  .resize-none {
+    resize: none;
   }
 
   .list-inside {
@@ -3701,6 +3738,10 @@
     padding-inline: calc(var(--spacing) * 1);
   }
 
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
+
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -3899,6 +3940,11 @@
     font-weight: var(--font-weight-bold);
   }
 
+  .font-extrabold {
+    --tw-font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-extrabold);
+  }
+
   .font-extralight {
     --tw-font-weight: var(--font-weight-extralight);
     font-weight: var(--font-weight-extralight);
@@ -3933,12 +3979,24 @@
     text-wrap: wrap;
   }
 
+  .text-\[\#001E29\] {
+    color: #001e29;
+  }
+
+  .text-\[\#808E94\] {
+    color: #808e94;
+  }
+
   .text-\[\#FF8000\] {
     color: #ff8000;
   }
 
   .text-\[\#FFFFFF\] {
     color: #fff;
+  }
+
+  .text-\[001E29\] {
+    color: 1e29;
   }
 
   .text-black {
@@ -4043,6 +4101,10 @@
 
   .radio-primary {
     --input-color: var(--color-primary);
+  }
+
+  .placeholder\:text-black::placeholder {
+    color: var(--color-black);
   }
 
   @media (hover: hover) {
