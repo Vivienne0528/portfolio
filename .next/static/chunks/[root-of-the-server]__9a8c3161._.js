@@ -476,10 +476,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 const Bottom = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "flex flex-col items-center gap-5 pt-50 w-full",
+        className: "flex flex-col items-center gap-2 pt-50 w-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "font-semibold text-3xl cursor-pointer",
+                className: "font-semibold text-2xl md:text-3xl cursor-pointer",
                 children: [
                     "Vivienne ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -510,7 +510,7 @@ const Bottom = ()=>{
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "cursor-pointer",
+                        className: "cursor-pointer text-sm md:text-xl",
                         children: "vivienne0528.gu@gmail.com"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Bottom.tsx",
@@ -524,17 +524,17 @@ const Bottom = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "h-px bg-[#FBD5A5] mt-5 mb-1 w-full"
+                className: "h-px bg-[#FBD5A5] mt-5 w-full"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Bottom.tsx",
                 lineNumber: 13,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "flex items-center justify-between w-full ",
+                className: "flex items-center justify-between w-full mb-10 text-sm md:text-xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "cursor-pointer",
+                        className: "cursor-pointer hidden sm:block",
                         children: "vivienne0528.gu@gmail.com"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Bottom.tsx",
@@ -542,7 +542,7 @@ const Bottom = ()=>{
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "flex gap-8",
+                        className: "flex gap-8 w-full sm:w-auto justify-between",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "cursor-pointer",
@@ -610,7 +610,7 @@ const GetInTouch = ()=>{
         className: "bg-[#FBD5A5] text-[#001E29] flex flex-col items-center gap-5 mt-25 p-4  w-full rounded-xl",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-2xl",
+                className: "text-xl md:text-2xl",
                 children: "Connect with me"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
@@ -618,7 +618,7 @@ const GetInTouch = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-[#FF8000] text-4xl font-bold",
+                className: "text-[#FF8000] text-3xl md:text-4xl font-bold",
                 children: "Get in touch"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
@@ -626,20 +626,14 @@ const GetInTouch = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center",
+                className: "flex flex-col items-center text:sm md:text-xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "I'd love to hear from you! If you have any questions, comments or feedback,"
+                        className: "text-center",
+                        children: "I'd love to hear from you! If you have any questions, comments or feedback, please use the form below."
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/GetInTouch.tsx",
                         lineNumber: 9,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: " please use the form below."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                        lineNumber: 14,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -647,35 +641,34 @@ const GetInTouch = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                 type: "text",
-                                placeholder: " Enter your name",
-                                className: "bg-white text-black rounded-[3px] w-full"
+                                placeholder: "Enter your name",
+                                className: "input bg-white text-black rounded-[5px] w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                                lineNumber: 16,
+                                lineNumber: 15,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                 type: "text",
-                                placeholder: " Enter your email",
-                                className: "bg-white text-black rounded-[3px] w-full"
+                                placeholder: "Enter your email",
+                                className: "input bg-white text-black rounded-[5px] w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                                lineNumber: 21,
+                                lineNumber: 16,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                        lineNumber: 15,
+                        lineNumber: 14,
                         columnNumber: 17
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                        type: "text",
-                        placeholder: "Enter your message",
-                        className: "bg-white text-black rounded-[3px] w-full h-50"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                        className: "textarea bg-white text-black rounded-[5px] w-full h-50",
+                        placeholder: "Enter your message"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                        lineNumber: 27,
+                        lineNumber: 18,
                         columnNumber: 17
                     }, this)
                 ]
@@ -685,11 +678,11 @@ const GetInTouch = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                className: "btn btn-xl bg-[#FF8000] text-[#FFFFFF] text-xl rounded-[50px] w-50 mr-10",
+                className: "btn btn-l md:btn-xl bg-[#FF8000] text-[#FFFFFF] text:sm md:text-xl rounded-[50px] w-40 md:w-50",
                 children: "Contact me →"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                lineNumber: 34,
+                lineNumber: 21,
                 columnNumber: 13
             }, this)
         ]
@@ -723,65 +716,82 @@ const Hero = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "p-10 font-extralight",
+                className: "p-10 font-extralight text-sm md:text-xl",
                 children: "Hi! I’m Vivienne Gu 👋🏻"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
                 lineNumber: 5,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-[#FF8000] text-6xl font-[serif] font-extrabold",
-                children: "full stack developer"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex flex-col text-center justify-center items-center md:text-6xl text-5xl font-[serif] font-extrabold",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[#FF8000] h-[3rem] md:h-[2.75rem]",
+                        children: "full stack developer"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Hero.tsx",
+                        lineNumber: 7,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "h-[3rem] md:h-[2.75rem]",
+                        children: "with a strong sense of"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Hero.tsx",
+                        lineNumber: 10,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-[#FF8000] h-[3rem] md:h-[2.75rem]",
+                        children: "ui/ux design"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Hero.tsx",
+                        lineNumber: 13,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 7,
+                lineNumber: 6,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-6xl font-[serif] font-extrabold",
-                children: "with a strong sense of"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "pt-10 text-sm md:text-xl flex flex-col items-center text-center",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        children: "Skilled in Frontend (React, Next.js, Tailwind CSS), Backend (Node.js,Express),"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Hero.tsx",
+                        lineNumber: 20,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        children: "Database (MySQL, MongoDB), DevOps (Git, Docker), and UI Design."
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Hero.tsx",
+                        lineNumber: 24,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 10,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-[#FF8000] text-6xl font-[serif] font-extrabold",
-                children: "ui/ux design"
-            }, void 0, false, {
-                fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 11,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "pt-10",
-                children: "Skilled in Frontend (React, Next.js, Tailwind CSS), Backend (Node.js,Express),"
-            }, void 0, false, {
-                fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 12,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                children: "Database (MySQL, MongoDB), DevOps (Git, Docker), and UI Design."
-            }, void 0, false, {
-                fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 16,
+                lineNumber: 19,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "p-10",
+                className: "p-10 flex flex-col md:flex-row gap-2 md:gap-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "btn btn-xl bg-[#FF8000] text-[#FFFFFF] text-xl rounded-[50px] w-50 mr-10",
+                        className: "btn btn-l md:btn-xl bg-[#FF8000] text-[#FFFFFF] text:sm md:text-xl rounded-[50px] w-40 md:w-50",
                         children: "Contact me →"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 19,
+                        lineNumber: 29,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "btn btn-xl text-[#FF8000] bg-[#FFFFFF] text-xl rounded-[50px] w-50 font-normal",
+                        className: "btn btn-l md:btn-xl text-[#FF8000] bg-[#FFFFFF] text:sm md:text-xl rounded-[50px] w-40 md:w-50 font-normal",
                         children: [
                             "My Resume",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -791,19 +801,19 @@ const Hero = ()=>{
                                 height: 20
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/Hero.tsx",
-                                lineNumber: 24,
+                                lineNumber: 34,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 22,
+                        lineNumber: 32,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 18,
+                lineNumber: 28,
                 columnNumber: 13
             }, this)
         ]
@@ -834,7 +844,7 @@ const Intro = ()=>{
         className: "flex flex-col items-center gap-5 pt-25",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-2xl",
+                className: "text:xl md:text-2xl",
                 children: "Introduction"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Intro.tsx",
@@ -842,7 +852,7 @@ const Intro = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-[#FF8000] text-4xl mb-5 font-bold",
+                className: "text-[#FF8000] text:3xl md:text-4xl mb-5 font-bold",
                 children: "About me"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Intro.tsx",
@@ -850,33 +860,35 @@ const Intro = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "flex gap-10 h-75 items-start",
+                className: "flex flex-col md:flex-row gap-10 items-center md:items-start justify-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         src: "/businessCard.png",
                         alt: "business card",
                         width: 500,
-                        height: 500
+                        height: 500,
+                        className: "w-full"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Intro.tsx",
                         lineNumber: 8,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "flex flex-col",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-light",
+                                className: "font-light text-sm md:text-xl",
                                 children: "I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                lineNumber: 15,
+                                lineNumber: 16,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                className: "flex gap-10 py-4",
+                                className: "flex justify-between gap-1 lg:gap-10 py-4 text-sm md:text-xl",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-[#FBD5A5] w-45 h-45 flex flex-col items-start justify-between p-4 rounded-xl text-[#001E29]",
+                                        className: "bg-[#FBD5A5] w-full max-w-50 h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/darkIcon.jpg",
@@ -885,37 +897,21 @@ const Intro = ()=>{
                                                 height: 30
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 23,
+                                                lineNumber: 24,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                                className: "font-bold ",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "HTML, CSS, "
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 30,
-                                                        columnNumber: 33
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "JavaScript,"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 31,
-                                                        columnNumber: 33
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "React Js, Next Js"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 32,
-                                                        columnNumber: 33
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                                className: "font-bold",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: "HTML, CSS, JavaScript ,React Js, Next Js "
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/components/Intro.tsx",
+                                                    lineNumber: 31,
+                                                    columnNumber: 33
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 29,
+                                                lineNumber: 30,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -923,17 +919,17 @@ const Intro = ()=>{
                                                 children: "Languages"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 34,
+                                                lineNumber: 33,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/components/Intro.tsx",
-                                        lineNumber: 22,
+                                        lineNumber: 23,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-[#FBD5A5] w-45 h-45 flex flex-col items-start justify-between p-4 rounded-xl text-[#001E29]",
+                                        className: "bg-[#FBD5A5] w-full max-w-50 h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/darkIcon.jpg",
@@ -942,95 +938,62 @@ const Intro = ()=>{
                                                 height: 30
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 37,
+                                                lineNumber: 36,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                                className: "font-bold ",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "HTML, CSS, "
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 44,
-                                                        columnNumber: 33
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "JavaScript,"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 45,
-                                                        columnNumber: 33
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "React Js, Next Js"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 46,
-                                                        columnNumber: 33
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                                className: "font-bold",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: "HTML, CSS, JavaScript ,React Js, Next Js "
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/components/Intro.tsx",
+                                                    lineNumber: 43,
+                                                    columnNumber: 33
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 43,
+                                                lineNumber: 42,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "font-extralight",
                                                 children: "Languages"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/components/Intro.tsx",
+                                                lineNumber: 45,
+                                                columnNumber: 29
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/pages/components/Intro.tsx",
+                                        lineNumber: 35,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "bg-[#FBD5A5] w-full max-w-50 h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/darkIcon.jpg",
+                                                alt: "business card",
+                                                width: 30,
+                                                height: 30
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
                                                 lineNumber: 48,
                                                 columnNumber: 29
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                        lineNumber: 36,
-                                        columnNumber: 25
-                                    }, this),
-                                    "                        ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-[#FBD5A5] w-45 h-45 flex flex-col items-start justify-between p-4 rounded-xl text-[#001E29]",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                src: "/darkIcon.jpg",
-                                                alt: "business card",
-                                                width: 30,
-                                                height: 30
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 50,
-                                                columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                                className: "font-bold ",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "HTML, CSS, "
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 57,
-                                                        columnNumber: 33
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "JavaScript,"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 58,
-                                                        columnNumber: 33
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: "React Js, Next Js"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/components/Intro.tsx",
-                                                        lineNumber: 59,
-                                                        columnNumber: 33
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                                className: "font-bold",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: "HTML, CSS, JavaScript ,React Js, Next Js "
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/components/Intro.tsx",
+                                                    lineNumber: 56,
+                                                    columnNumber: 33
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 55,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1038,29 +1001,30 @@ const Intro = ()=>{
                                                 children: "Languages"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 61,
+                                                lineNumber: 58,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/components/Intro.tsx",
-                                        lineNumber: 49,
-                                        columnNumber: 55
+                                        lineNumber: 47,
+                                        columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                lineNumber: 21,
+                                lineNumber: 22,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                 className: "flex flex-col gap-2",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "text-sm md:text-xl",
                                         children: "Tools i use"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/components/Intro.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 63,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1075,12 +1039,12 @@ const Intro = ()=>{
                                                     height: 30
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/components/Intro.tsx",
-                                                    lineNumber: 68,
+                                                    lineNumber: 66,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 65,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1092,12 +1056,12 @@ const Intro = ()=>{
                                                     height: 30
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/components/Intro.tsx",
-                                                    lineNumber: 71,
+                                                    lineNumber: 69,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 68,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1109,12 +1073,12 @@ const Intro = ()=>{
                                                     height: 30
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/components/Intro.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 72,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 71,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1126,30 +1090,30 @@ const Intro = ()=>{
                                                     height: 30
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/components/Intro.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 75,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 74,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/components/Intro.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 64,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/components/Intro.tsx",
-                                lineNumber: 64,
+                                lineNumber: 62,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/Intro.tsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, this)
                 ]
@@ -1188,7 +1152,7 @@ const MyLatestWork = ()=>{
         className: "flex flex-col items-center gap-5 pt-50",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-2xl",
+                className: "text-xl md:text-2xl",
                 children: "My portfolio"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyLatestWork.tsx",
@@ -1196,7 +1160,7 @@ const MyLatestWork = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-[#FF8000] text-4xl font-bold",
+                className: "text-[#FF8000] text-3xl md:text-4xl font-bold",
                 children: "My latest work"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyLatestWork.tsx",
@@ -1204,34 +1168,26 @@ const MyLatestWork = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "Welcome to my web development portfolio! Explore a collection of projects showcasing"
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/components/MyLatestWork.tsx",
-                        lineNumber: 7,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "my expertise in front-end development."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/components/MyLatestWork.tsx",
-                        lineNumber: 11,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
+                className: "",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "w-full max-w-150 text-center text-sm md:text-xl",
+                    children: "Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development."
+                }, void 0, false, {
+                    fileName: "[project]/src/pages/components/MyLatestWork.tsx",
+                    lineNumber: 7,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyLatestWork.tsx",
                 lineNumber: 6,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                className: "cursor-pointer border-1 rounded-[50px] w-[160px] h-[48px] mt-50",
-                children: "Show more →"
+                className: "btn btn-l md:btn-xl bg-[#FF8000] text-[#FFFFFF] text:sm md:text-xl rounded-[50px] w-40 md:w-50 mt-50",
+                children: "Contact me →"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyLatestWork.tsx",
-                lineNumber: 14,
+                lineNumber: 13,
                 columnNumber: 13
             }, this)
         ]
@@ -1266,7 +1222,7 @@ const MyService = ()=>{
         className: "flex flex-col items-center gap-5 pt-50 w-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-2xl",
+                className: "text-xl md:text-2xl",
                 children: "What i offers"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyService.tsx",
@@ -1274,7 +1230,7 @@ const MyService = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-[#FF8000] text-4xl font-bold",
+                className: "text-[#FF8000] text-3xl md:text-4xl font-bold",
                 children: "My Service"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyService.tsx",
@@ -1282,162 +1238,156 @@ const MyService = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: [
-                            "I am a frontend developer from California, USA with 10 years of experience",
-                            " "
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/pages/components/MyService.tsx",
-                        lineNumber: 8,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "in multiple companies like Microsoft, Tesla and Apple."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/components/MyService.tsx",
-                        lineNumber: 12,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
+                className: "",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "w-full max-w-150 text-center text-sm md:text-xl",
+                    children: "I am a frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple."
+                }, void 0, false, {
+                    fileName: "[project]/src/pages/components/MyService.tsx",
+                    lineNumber: 8,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyService.tsx",
                 lineNumber: 7,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "flex py-4 gap-10 w-full items-center justify-between",
+                className: "py-4 gap-1 md:gap-10 w-full items-center justify-between grid grid-cols-2 md:grid-cols-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-[#FBD5A5] text-[#001E29] w-60 h-60 flex flex-col items-start justify-between p-4 rounded-xl",
+                        className: "bg-[#FBD5A5] text-[#001E29] w-full h-60 flex flex-col items-start justify-between p-4 rounded-xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/earth.jpg",
                                 alt: "earth Icon",
                                 width: 40,
                                 height: 40
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/components/MyService.tsx",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "font-medium text:xl md:text-2xl",
+                                children: "Web design"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
                                 lineNumber: 16,
                                 columnNumber: 21
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "font-medium text-2xl",
-                                children: "Web design"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "font-light text-sm md:text-xl",
+                                children: "Web development is the process of building, programming..."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
                                 lineNumber: 17,
                                 columnNumber: 21
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-light",
-                                children: "Web development is the process of building, programming..."
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 18,
-                                columnNumber: 21
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-sm md:text-xl",
                                 children: "Read more → "
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 19,
+                                lineNumber: 20,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/MyService.tsx",
-                        lineNumber: 15,
+                        lineNumber: 14,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-[#FBD5A5] text-[#001E29] w-60 h-60 flex flex-col items-start justify-between p-4 rounded-xl",
+                        className: "bg-[#FBD5A5] text-[#001E29] w-full h-60 flex flex-col items-start justify-between p-4 rounded-xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/earth.jpg",
                                 alt: "earth Icon",
                                 width: 40,
                                 height: 40
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 22,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "font-medium text-2xl",
-                                children: "Web design"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
                                 lineNumber: 23,
                                 columnNumber: 21
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-light",
-                                children: "Web development is the process of building, programming..."
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "font-medium text:xl md:text-2xl",
+                                children: "Web design"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
                                 lineNumber: 24,
                                 columnNumber: 21
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: "Read more → "
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "font-light text-sm md:text-xl",
+                                children: "Web development is the process of building, programming..."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
                                 lineNumber: 25,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-sm md:text-xl",
+                                children: "Read more → "
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/components/MyService.tsx",
+                                lineNumber: 28,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/MyService.tsx",
-                        lineNumber: 21,
+                        lineNumber: 22,
                         columnNumber: 17
                     }, this),
+                    "                ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-[#FBD5A5] text-[#001E29] w-60 h-60 flex flex-col items-start justify-between p-4 rounded-xl",
+                        className: "bg-[#FBD5A5] text-[#001E29] w-full h-60 flex flex-col items-start justify-between p-4 rounded-xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/earth.jpg",
                                 alt: "earth Icon",
                                 width: 40,
                                 height: 40
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 28,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "font-medium text-2xl",
-                                children: "Web design"
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 29,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-light",
-                                children: "Web development is the process of building, programming..."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
                                 lineNumber: 30,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: "Read more → "
+                                className: "font-medium text:xl md:text-2xl",
+                                children: "Web design"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
                                 lineNumber: 31,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "font-light text-sm md:text-xl",
+                                children: "Web development is the process of building, programming..."
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/components/MyService.tsx",
+                                lineNumber: 32,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-sm md:text-xl",
+                                children: "Read more → "
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/components/MyService.tsx",
+                                lineNumber: 35,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/MyService.tsx",
-                        lineNumber: 27,
-                        columnNumber: 17
+                        lineNumber: 29,
+                        columnNumber: 39
                     }, this),
+                    "                ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-[#FBD5A5] text-[#001E29] w-60 h-60 flex flex-col items-start justify-between p-4 rounded-xl",
+                        className: "bg-[#FBD5A5] text-[#001E29] w-full h-60 flex flex-col items-start justify-between p-4 rounded-xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/earth.jpg",
@@ -1446,42 +1396,43 @@ const MyService = ()=>{
                                 height: 40
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 34,
+                                lineNumber: 37,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "font-medium text-2xl",
+                                className: "font-medium text:xl md:text-2xl",
                                 children: "Web design"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 35,
+                                lineNumber: 38,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "font-light",
+                                className: "font-light text-sm md:text-xl",
                                 children: "Web development is the process of building, programming..."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 36,
+                                lineNumber: 39,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-sm md:text-xl",
                                 children: "Read more → "
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/MyService.tsx",
-                                lineNumber: 37,
+                                lineNumber: 42,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/MyService.tsx",
-                        lineNumber: 33,
-                        columnNumber: 17
+                        lineNumber: 36,
+                        columnNumber: 39
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/components/MyService.tsx",
-                lineNumber: 14,
+                lineNumber: 13,
                 columnNumber: 13
             }, this)
         ]
@@ -1511,55 +1462,116 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 ;
 const Mode = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-        className: "swap swap-rotate",
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "flex  gap-5",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                type: "checkbox",
-                className: "theme-controller",
-                value: "abyss"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                className: "swap swap-rotate",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                        type: "checkbox",
+                        className: "theme-controller",
+                        value: "abyss"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Mode.tsx",
+                        lineNumber: 7,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                        className: "swap-off h-10 w-10 fill-current",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        viewBox: "0 0 24 24",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/components/Mode.tsx",
+                            lineNumber: 15,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Mode.tsx",
+                        lineNumber: 10,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                        className: "swap-on h-10 w-10 fill-current",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        viewBox: "0 0 24 24",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/components/Mode.tsx",
+                            lineNumber: 24,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Mode.tsx",
+                        lineNumber: 19,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/pages/components/Mode.tsx",
-                lineNumber: 6,
-                columnNumber: 7
+                lineNumber: 5,
+                columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                className: "swap-off h-10 w-10 fill-current",
-                xmlns: "http://www.w3.org/2000/svg",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    d: "M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
-                }, void 0, false, {
-                    fileName: "[project]/src/pages/components/Mode.tsx",
-                    lineNumber: 14,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                className: " lg:hidden btn btn-circle swap swap-rotate",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                        type: "checkbox"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Mode.tsx",
+                        lineNumber: 29,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                        className: "swap-off fill-current",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        width: "32",
+                        height: "32",
+                        viewBox: "0 0 512 512",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/components/Mode.tsx",
+                            lineNumber: 38,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Mode.tsx",
+                        lineNumber: 32,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                        className: "swap-on fill-current",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        width: "32",
+                        height: "32",
+                        viewBox: "0 0 512 512",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("polygon", {
+                            points: "400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/components/Mode.tsx",
+                            lineNumber: 48,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/components/Mode.tsx",
+                        lineNumber: 42,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/pages/components/Mode.tsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                className: "swap-on h-10 w-10 fill-current",
-                xmlns: "http://www.w3.org/2000/svg",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    d: "M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
-                }, void 0, false, {
-                    fileName: "[project]/src/pages/components/Mode.tsx",
-                    lineNumber: 23,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/pages/components/Mode.tsx",
-                lineNumber: 18,
-                columnNumber: 7
+                lineNumber: 27,
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/components/Mode.tsx",
         lineNumber: 4,
-        columnNumber: 5
+        columnNumber: 9
     }, this);
 };
 _c = Mode;
@@ -1605,7 +1617,7 @@ const NavBar = ()=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                className: "text-xl flex justify-between p-2 border-1 rounded-full w-[600px]",
+                className: "hidden lg:flex text-xl  justify-between p-2 border-1 rounded-full w-[600px]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         className: "ml-3 font-bold cursor-pointer",
@@ -1691,7 +1703,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$components$2
 ;
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "w-full h-screen font-[Poppins] px-20 py-5 flex flex-col items-center m-auto max-w-[1280px]",
+        className: "w-full h-screen font-[Poppins] xl:px-20 lg:px-10 p-1 py-5 flex flex-col items-center m-auto max-w-[1280px] min-w-[375px]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$components$2f$NavBar$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/index.tsx",

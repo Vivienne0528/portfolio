@@ -8,7 +8,7 @@ import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
-    <section className="w-full h-screen font-[Poppins] px-20 py-5 flex flex-col items-center m-auto max-w-[1280px]">
+    <section className="w-full h-screen font-[Poppins] xl:px-20 lg:px-10 p-1 py-5 flex flex-col items-center m-auto max-w-[1280px] min-w-[375px]">
       <NavBar />
       <Hero />
       <Intro />
