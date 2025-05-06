@@ -700,6 +700,143 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
+"[project]/src/pages/utils/SplitText.tsx [client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$spring$2f$web$2f$dist$2f$react$2d$spring_web$2e$modern$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/@react-spring/web/dist/react-spring_web.modern.mjs [client] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$spring$2f$core$2f$dist$2f$react$2d$spring_core$2e$modern$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@react-spring/core/dist/react-spring_core.modern.mjs [client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$spring$2f$web$2f$dist$2f$react$2d$spring_web$2e$modern$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@react-spring/web/dist/react-spring_web.modern.mjs [client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+;
+;
+const SplitText = ({ text = '', className = '', delay = 100, animationFrom = {
+    opacity: 0,
+    transform: 'translate3d(0,40px,0)'
+}, animationTo = {
+    opacity: 1,
+    transform: 'translate3d(0,0,0)'
+}, easing = 'easeOutCubic', threshold = 0.1, rootMargin = '-100px', textAlign = 'center', onLetterAnimationComplete })=>{
+    _s();
+    const words = text.split(' ').map((word)=>word.split(''));
+    const letters = words.flat();
+    const [inView, setInView] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])();
+    const animatedCount = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])(0);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "SplitText.useEffect": ()=>{
+            const observer = new IntersectionObserver({
+                "SplitText.useEffect": ([entry])=>{
+                    if (entry.isIntersecting) {
+                        setInView(true);
+                        observer.unobserve(ref.current);
+                    }
+                }
+            }["SplitText.useEffect"], {
+                threshold,
+                rootMargin
+            });
+            observer.observe(ref.current);
+            return ({
+                "SplitText.useEffect": ()=>observer.disconnect()
+            })["SplitText.useEffect"];
+        }
+    }["SplitText.useEffect"], [
+        threshold,
+        rootMargin
+    ]);
+    const springs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$spring$2f$core$2f$dist$2f$react$2d$spring_core$2e$modern$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useSprings"])(letters.length, letters.map({
+        "SplitText.useSprings[springs]": (_, i)=>({
+                from: animationFrom,
+                to: inView ? ({
+                    "SplitText.useSprings[springs]": async (next)=>{
+                        await next(animationTo);
+                        animatedCount.current += 1;
+                        if (animatedCount.current === letters.length && onLetterAnimationComplete) {
+                            onLetterAnimationComplete();
+                        }
+                    }
+                })["SplitText.useSprings[springs]"] : animationFrom,
+                delay: i * delay,
+                config: {
+                    easing
+                }
+            })
+    }["SplitText.useSprings[springs]"]));
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        ref: ref,
+        className: `split-parent ${className}`,
+        style: {
+            textAlign,
+            overflow: 'hidden',
+            display: 'inline',
+            whiteSpace: 'normal',
+            wordWrap: 'break-word'
+        },
+        children: words.map((word, wordIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                style: {
+                    display: 'inline-block',
+                    whiteSpace: 'nowrap'
+                },
+                children: [
+                    word.map((letter, letterIndex)=>{
+                        const index = words.slice(0, wordIndex).reduce((acc, w)=>acc + w.length, 0) + letterIndex;
+                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$spring$2f$web$2f$dist$2f$react$2d$spring_web$2e$modern$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["animated"].span, {
+                            style: {
+                                ...springs[index],
+                                display: 'inline-block',
+                                willChange: 'transform, opacity'
+                            },
+                            children: letter
+                        }, index, false, {
+                            fileName: "[project]/src/pages/utils/SplitText.tsx",
+                            lineNumber: 71,
+                            columnNumber: 29
+                        }, this);
+                    }),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        style: {
+                            display: 'inline-block',
+                            width: '0.3em'
+                        },
+                        children: " "
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/utils/SplitText.tsx",
+                        lineNumber: 83,
+                        columnNumber: 21
+                    }, this)
+                ]
+            }, wordIndex, true, {
+                fileName: "[project]/src/pages/utils/SplitText.tsx",
+                lineNumber: 64,
+                columnNumber: 17
+            }, this))
+    }, void 0, false, {
+        fileName: "[project]/src/pages/utils/SplitText.tsx",
+        lineNumber: 58,
+        columnNumber: 9
+    }, this);
+};
+_s(SplitText, "aihlks1QOUvV51sB8x8RcPuoMgs=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$spring$2f$core$2f$dist$2f$react$2d$spring_core$2e$modern$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useSprings"]
+    ];
+});
+_c = SplitText;
+const __TURBOPACK__default__export__ = SplitText;
+var _c;
+__turbopack_context__.k.register(_c, "SplitText");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
 "[project]/src/pages/components/Hero.tsx [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -710,17 +847,35 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$utils$2f$SplitText$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/pages/utils/SplitText.tsx [client] (ecmascript)");
+;
 ;
 ;
 const Hero = ()=>{
+    const handleAnimationComplete = ()=>{
+        console.log('All letters have animated!');
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$utils$2f$SplitText$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                text: "Hi! I’m Vivienne Gu ヅ",
                 className: "p-10 font-extralight text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]",
-                children: "Hi! I’m Vivienne Gu 👋🏻"
+                delay: 150,
+                animationFrom: {
+                    opacity: 0,
+                    transform: 'translate3d(0,50px,0)'
+                },
+                animationTo: {
+                    opacity: 1,
+                    transform: 'translate3d(0,0,0)'
+                },
+                easing: "easeOutCubic",
+                threshold: 0.2,
+                rootMargin: "-50px",
+                onLetterAnimationComplete: handleAnimationComplete
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 6,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -731,7 +886,7 @@ const Hero = ()=>{
                         children: "full stack developer"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 10,
+                        lineNumber: 23,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -739,7 +894,7 @@ const Hero = ()=>{
                         children: "with a strong sense of"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 13,
+                        lineNumber: 26,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -747,13 +902,13 @@ const Hero = ()=>{
                         children: "ui/ux design"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 16,
+                        lineNumber: 29,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 9,
+                lineNumber: 21,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -763,12 +918,12 @@ const Hero = ()=>{
                     children: "Skilled in Frontend (React, Next.js, Tailwind CSS), Backend (Node.js,Express), Database (MySQL, MongoDB), DevOps (Git, Docker), and UI Design."
                 }, void 0, false, {
                     fileName: "[project]/src/pages/components/Hero.tsx",
-                    lineNumber: 21,
+                    lineNumber: 34,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 20,
+                lineNumber: 33,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -779,7 +934,7 @@ const Hero = ()=>{
                         children: "Contact me →"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 29,
+                        lineNumber: 42,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -793,19 +948,19 @@ const Hero = ()=>{
                                 height: 20
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/Hero.tsx",
-                                lineNumber: 34,
+                                lineNumber: 47,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/Hero.tsx",
-                        lineNumber: 32,
+                        lineNumber: 45,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/components/Hero.tsx",
-                lineNumber: 28,
+                lineNumber: 41,
                 columnNumber: 13
             }, this)
         ]
@@ -1779,4 +1934,4 @@ __turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/src/p
 }}),
 }]);
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__9a8c3161._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__deda303f._.js.map

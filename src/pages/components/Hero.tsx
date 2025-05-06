@@ -1,11 +1,25 @@
 import Image from "next/image";
+import SplitText from "../utils/SplitText";
+
 const Hero = () => {
+    const handleAnimationComplete = () => {
+        console.log('All letters have animated!');
+    };
     return (
         <>
-            <section className="p-10 font-extralight text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
-                Hi! I’m Vivienne Gu 👋🏻
-            </section>
+            <SplitText
+                text="Hi! I’m Vivienne Gu ヅ"
+                className="p-10 font-extralight text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]"
+                delay={150}
+                animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                easing="easeOutCubic"
+                threshold={0.2}
+                rootMargin="-50px"
+                onLetterAnimationComplete={handleAnimationComplete}
+            />
             <div className="flex flex-col text-center justify-center items-center md:text-6xl text-5xl font-[serif] font-extrabold">
+
                 <p className="text-[#FF8000] leading-[3rem] md:leading-[2.75rem]">
                     full stack developer
                 </p>
@@ -25,7 +39,7 @@ const Hero = () => {
             </div>
 
             <section className="p-10 flex flex-col md:flex-row gap-2 md:gap-10">
-                <button className="btn btn-l md:btn-xl bg-[#FF8000] text-[#FFFFFF] text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] rounded-[50px] w-80 md:w-50">
+                <button className="animate-bounce btn btn-l md:btn-xl bg-[#FF8000] text-[#FFFFFF] text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] rounded-[50px] w-80 md:w-50">
                     Contact me →
                 </button>
                 <button className="btn btn-l md:btn-xl text-[#FF8000] bg-[#FFFFFF] text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] rounded-[50px] w-80 md:w-50 font-normal">

@@ -32,7 +32,7 @@ const Intro = () => {
                                 height={30}
                             />
                             <section className="font-bold">
-                                <div>HTML, CSS, JavaScript ,React Js, Next Js </div>
+                                <div>HTML, CSS, JavaScript, React Js, Next Js </div>
                             </section>
                             <div className="font-extralight">Languages</div>
                         </div>
@@ -44,7 +44,7 @@ const Intro = () => {
                                 height={30}
                             />
                             <section className="font-bold">
-                                <div>HTML, CSS, JavaScript ,React Js, Next Js </div>
+                                <div>HTML, CSS, JavaScript, React Js, Next Js </div>
                             </section>
                             <div className="font-extralight">Languages</div>
                         </div>
@@ -56,7 +56,7 @@ const Intro = () => {
                                 height={30}
                             />
                             <section className="font-bold">
-                                <div>HTML, CSS, JavaScript ,React Js, Next Js </div>
+                                <div>HTML, CSS, JavaScript, React Js, Next Js </div>
                             </section>
                             <div className="font-extralight">Languages</div>
                         </div>
