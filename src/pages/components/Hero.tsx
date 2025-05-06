@@ -9,12 +9,18 @@ const Hero = () => {
                 <p className="text-[#FF8000] leading-[3rem] md:leading-[2.75rem]">
                     full stack developer
                 </p>
-                <p className="leading-[3rem] md:leading-[2.75rem]">with a strong sense of</p>
-                <p className="text-[#FF8000] leading-[3rem] md:leading-[2.75rem]">ui/ux design</p>
+                <p className="leading-[3rem] md:leading-[2.75rem]">
+                    with a strong sense of
+                </p>
+                <p className="text-[#FF8000] leading-[3rem] md:leading-[2.75rem]">
+                    ui/ux design
+                </p>
             </div>
             <div className="pt-10 text-xl items-center text-center">
                 <p className="leading-[1.75rem] max-w-200">
-                    Skilled in Frontend (React, Next.js, Tailwind CSS), Backend (Node.js,Express), Database (MySQL, MongoDB), DevOps (Git, Docker), and UI Design.
+                    Skilled in Frontend (React, Next.js, Tailwind CSS), Backend
+                    (Node.js,Express), Database (MySQL, MongoDB), DevOps (Git, Docker),
+                    and UI Design.
                 </p>
             </div>
 

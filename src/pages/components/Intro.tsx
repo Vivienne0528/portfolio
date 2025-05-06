@@ -2,7 +2,9 @@ import Image from "next/image";
 const Intro = () => {
     return (
         <section className="flex flex-col items-center gap-5 pt-25">
-            <div className="text-xl leading-[1.75rem] md:leading-[2rem] md:text-2xl">Introduction</div>
+            <div className="text-xl leading-[1.75rem] md:leading-[2rem] md:text-2xl">
+                Introduction
+            </div>
             <div className="text-[#FF8000] text-3xl leading-[2.25rem] md:text-4xl md:leading-[2.5rem] mb-5 font-bold">
                 About me
             </div>
@@ -60,8 +62,10 @@ const Intro = () => {
                         </div>
                     </section>
                     <section className="flex flex-col gap-2">
-                        <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">Tools i use</div>
-                        <section className="flex gap-5">
+                        <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] text-center md:text-start">
+                            Tools i use
+                        </div>
+                        <section className="flex gap-5 justify-center md:justify-start">
                             <div className="w-16 h-16 border-1 rounded-xl flex items-center justify-center">
                                 <Image src="/vsIcon.jpg" alt="VS icon" width={30} height={30} />
                             </div>

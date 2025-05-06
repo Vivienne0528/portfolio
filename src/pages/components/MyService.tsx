@@ -2,7 +2,9 @@ import Image from "next/image";
 const MyService = () => {
     return (
         <section className="flex flex-col items-center gap-5 pt-50 w-full">
-            <div className="text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem]">What i offers</div>
+            <div className="text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem]">
+                What i offers
+            </div>
             <div className="text-[#FF8000] text-3xl md:text-4xl font-bold">
                 My Service
             </div>
@@ -12,38 +14,54 @@ const MyService = () => {
                     experience in multiple companies like Microsoft, Tesla and Apple.
                 </p>
             </div>
-            <section className="py-4 gap-10  lg:gap-5 md:2 w-full items-center justify-between grid grid-cols-2 md:grid-cols-4">
+            <section className="py-4 gap-2  lg:gap-10 md:5 w-full grid grid-cols-2 md:grid-cols-4">
                 <div className="bg-[#FBD5A5] text-[#001E29] w-full h-62 flex flex-col items-start justify-between p-5 md:p-3 rounded-xl">
                     <Image src="/earth.jpg" alt="earth Icon" width={40} height={40} />
-                    <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">Web design</div>
+                    <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">
+                        Web design
+                    </div>
                     <p className="font-light text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
                         Web development is the process of building, programming...
                     </p>
-                    <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">Read more → </div>
+                    <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
+                        Read more →{" "}
+                    </div>
                 </div>
                 <div className="bg-[#FBD5A5] text-[#001E29] w-full h-62 flex flex-col items-start justify-between p-5 md:p-3 rounded-xl">
                     <Image src="/earth.jpg" alt="earth Icon" width={40} height={40} />
-                    <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">Web design</div>
+                    <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">
+                        Web design
+                    </div>
                     <p className="font-light text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
                         Web development is the process of building, programming...
                     </p>
-                    <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">Read more → </div>
+                    <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
+                        Read more →{" "}
+                    </div>
                 </div>
                 <div className="bg-[#FBD5A5] text-[#001E29] w-full h-62 flex flex-col items-start justify-between p-5 md:p-3 rounded-xl">
                     <Image src="/earth.jpg" alt="earth Icon" width={40} height={40} />
-                    <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">Web design</div>
+                    <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">
+                        Web design
+                    </div>
                     <p className="font-light text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
                         Web development is the process of building, programming...
                     </p>
-                    <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">Read more → </div>
+                    <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
+                        Read more →{" "}
+                    </div>
                 </div>
                 <div className="bg-[#FBD5A5] text-[#001E29] w-full h-62 flex flex-col items-start justify-between p-5 md:p-3 rounded-xl">
                     <Image src="/earth.jpg" alt="earth Icon" width={40} height={40} />
-                    <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">Web design</div>
+                    <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">
+                        Web design
+                    </div>
                     <p className="font-light text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
                         Web development is the process of building, programming...
                     </p>
-                    <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">Read more → </div>
+                    <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
+                        Read more →{" "}
+                    </div>
                 </div>
             </section>
         </section>

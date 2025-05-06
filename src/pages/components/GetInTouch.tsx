@@ -3,7 +3,9 @@ import React from "react";
 const GetInTouch = () => {
     return (
         <section className="bg-[#FBD5A5] text-[#001E29] flex flex-col items-center gap-5 mt-25 p-4  w-full rounded-xl">
-            <div className="text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem]">Connect with me</div>
+            <div className="text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem]">
+                Connect with me
+            </div>
             <div className="text-[#FF8000] text-3xl md:text-4xl font-bold leading-[2.25rem] md:leading-[2.5rem]">
                 Get in touch
             </div>

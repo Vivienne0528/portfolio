@@ -3568,6 +3568,10 @@
     align-items: flex-start;
   }
 
+  .justify-baseline {
+    justify-content: baseline;
+  }
+
   .justify-between {
     justify-content: space-between;
   }
@@ -3988,6 +3992,10 @@
 
   .text-center {
     text-align: center;
+  }
+
+  .text-start {
+    text-align: start;
   }
 
   .font-\[Poppins\] {
@@ -4414,6 +4422,24 @@
   }
 
   @media (width >= 48rem) {
+    .md\:justify-baseline {
+      justify-content: baseline;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:justify-center {
+      justify-content: center;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:justify-start {
+      justify-content: flex-start;
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:gap-1 {
       gap: calc(var(--spacing) * 1);
     }
@@ -4440,6 +4466,12 @@
   @media (width >= 48rem) {
     .md\:p-3 {
       padding: calc(var(--spacing) * 3);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:text-start {
+      text-align: start;
     }
   }
 
