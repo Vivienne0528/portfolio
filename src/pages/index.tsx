@@ -10,7 +10,7 @@ import UseContextProvider from "./utils/UseContextProvider";
 export default function Home() {
   return (
     <UseContextProvider>
-      <section className="w-full h-screen font-[Poppins] xl:px-20 lg:px-10 flex flex-col items-center m-auto max-w-[1280px] min-w-[375px]">
+      <section className="w-full h-screen font-[Poppins] px-4 xl:px-20 lg:px-10 flex flex-col items-center m-auto max-w-[1280px] min-w-[375px]">
         <NavBar />
         <Hero />
         <Intro />
