@@ -5,17 +5,16 @@ const Intro = () => {
             <div className="text-xl leading-[1.75rem] md:leading-[2rem] md:text-2xl">
                 Introduction
             </div>
-            <div className="text-[#FF8000] text-3xl leading-[2.25rem] md:text-4xl md:leading-[2.5rem] mb-5 font-bold">
+            <div className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent text-3xl leading-[2.25rem] md:text-4xl md:leading-[2.5rem] mb-5 font-bold">
                 About me
             </div>
-            <section className="flex flex-col md:flex-row gap-10 items-center md:items-start justify-center">
-                <Image
+            <section className="flex flex-col md:flex-row gap-5 lg:gap-10 items-center md:items-start justify-center">
+                <img
                     src="/businessCard.png"
                     alt="business card"
-                    width={500}
-                    height={500}
-                    className="w-full"
+                    className="w-full h-90 object-cover object-[0%_38%] md:w-100 md:h-auto"
                 />
+
                 <section className="flex flex-col">
                     <p className="font-light text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
                         I am an experienced Frontend Developer with over a decade of
@@ -24,10 +23,11 @@ const Intro = () => {
                         contributing to their success and growth.
                     </p>
                     <section className="flex justify-between gap-1 lg:gap-10 py-4 text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
+
                         <div className="bg-[#FBD5A5] w-full max-w-50 h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
                             <Image
                                 src="/darkIcon.jpg"
-                                alt="business card"
+                                alt="dark icon"
                                 width={30}
                                 height={30}
                             />
@@ -39,7 +39,7 @@ const Intro = () => {
                         <div className="bg-[#FBD5A5] w-full max-w-50 h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
                             <Image
                                 src="/darkIcon.jpg"
-                                alt="business card"
+                                alt="dark icon"
                                 width={30}
                                 height={30}
                             />
@@ -51,7 +51,7 @@ const Intro = () => {
                         <div className="bg-[#FBD5A5] w-full max-w-50 h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
                             <Image
                                 src="/darkIcon.jpg"
-                                alt="business card"
+                                alt="dark icon"
                                 width={30}
                                 height={30}
                             />
@@ -66,16 +66,16 @@ const Intro = () => {
                             Tools i use
                         </div>
                         <section className="flex gap-5 justify-center md:justify-start">
-                            <div className="w-16 h-16 border-1 rounded-xl flex items-center justify-center">
+                            <div className="w-16 h-16 rounded-xl flex items-center justify-center">
                                 <Image src="/vsIcon.jpg" alt="VS icon" width={30} height={30} />
                             </div>
-                            <div className="w-16 h-16 border-1 rounded-xl flex items-center justify-center">
+                            <div className="w-16 h-16 rounded-xl flex items-center justify-center">
                                 <Image src="/vsIcon.jpg" alt="VS icon" width={30} height={30} />
                             </div>
-                            <div className="w-16 h-16 border-1 rounded-xl flex items-center justify-center">
+                            <div className="w-16 h-16 rounded-xl flex items-center justify-center">
                                 <Image src="/vsIcon.jpg" alt="VS icon" width={30} height={30} />
                             </div>
-                            <div className="w-16 h-16 border-1 rounded-xl flex items-center justify-center">
+                            <div className="w-16 h-16 rounded-xl flex items-center justify-center">
                                 <Image src="/vsIcon.jpg" alt="VS icon" width={30} height={30} />
                             </div>
                         </section>
