@@ -6,11 +6,14 @@ import { useForm } from "react-hook-form";
 
 const GetInTouch = () => {
   const { contactRef } = useContext(useRefStore);
-  const { schema, messageSubmit } = useAuth()
-  const { register, handleSubmit, formState: { errors } } = useForm({
+  const { schema, messageSubmit, successMessage, errorMessage } = useAuth();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
     resolver: yupResolver(schema),
   });
-
 
   return (
     <section
@@ -27,7 +30,10 @@ const GetInTouch = () => {
         Get in touch
       </div>
 
-      <form onSubmit={handleSubmit(messageSubmit)} className="gap-5 flex flex-col items-center text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
+      <form
+        onSubmit={handleSubmit(messageSubmit)}
+        className="gap-5 flex flex-col items-center text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]"
+      >
         <p className="text-center">
           {
             "I'd love to hear from you! If you have any questions, comments or feedback, please use the form below."
@@ -54,19 +60,16 @@ const GetInTouch = () => {
           {...register("message", { required: true })}
         ></textarea>
         <div className="text-red-600 font-extrabold text-[14px]">
-          <p >{errors.name?.message}</p>
+          <p>{errors.name?.message}</p>
           <p>{errors.email?.message}</p>
           <p>{errors.message?.message}</p>
+          {successMessage && <p className="text-green-600">{successMessage}</p>}
+          {errorMessage && <p>{errorMessage}</p>}
         </div>
         <button className="w-full btn btn-l md:btn-xl border-0 bg-gradient-to-r from-amber-500 to-orange-500 hover:scale-105 shadow-sm hover:shadow-xl transition duration-200 ease-in-out text-[#FFFFFF] text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] rounded-[50px] md:w-50">
           Send to me →
         </button>
-
       </form>
-
-
-
-
     </section>
   );
 };
