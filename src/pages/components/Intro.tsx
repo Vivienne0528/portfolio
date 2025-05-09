@@ -1,7 +1,10 @@
 import Image from "next/image";
+import { useRefStore } from "../utils/useRefStore";
+import { useContext } from "react";
 const Intro = () => {
+  const { aboutRef } = useContext(useRefStore);
   return (
-    <section className="flex flex-col items-center gap-5 pt-25">
+    <section ref={aboutRef} className="flex flex-col items-center gap-5 pt-25">
       <div className="text-xl leading-[1.75rem] md:leading-[2rem] md:text-2xl">
         Introduction
       </div>
@@ -12,55 +15,57 @@ const Intro = () => {
         <img
           src="/businessCard.png"
           alt="business card"
-          className="w-full h-90 object-cover object-[0%_38%] md:w-100 md:h-auto rounded-xl"
+          className="w-full h-80 object-cover object-[0%_40%] md:w-[40%] md:h-auto lg:w-85 rounded-xl"
         />
 
         <section className="flex flex-col">
           <p className="font-light text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
-            I am an experienced Frontend Developer with over a decade of
-            professional expertise in the field. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            contributing to their success and growth.
+            I&apos;m a curious builder who turns ideas into interactive web
+            experiences. With a year of full-stack experience using Next.js,
+            React, and more, I love crafting clean, scalable code that feels as
+            smooth as it looks. Always learning, always coding — let&apos;s
+            create something awesome.
           </p>
+
           <section className="flex justify-between gap-4 lg:gap-10 py-4 text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
-            <div className="bg-white w-full h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
+            <div className="bg-[#FBD5A5] w-full h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
               <Image
                 src="/darkIcon.jpg"
                 alt="dark icon"
                 width={30}
                 height={30}
               />
-              <section className="font-bold">
+              <section className=" font-bold">
                 <div>HTML, CSS, JavaScript, React Js, Next Js </div>
               </section>
               <div className="font-extralight">Languages</div>
             </div>
-            <div className="bg-white w-full h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
+            <div className=" bg-[#FBD5A5] w-full h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
               <Image
-                src="/darkIcon.jpg"
-                alt="dark icon"
+                src="/educationIcon.jpg"
+                alt="education icon"
                 width={30}
                 height={30}
               />
               <section className="font-bold">
-                <div>HTML, CSS, JavaScript, React Js, Next Js </div>
+                <div>Master&apos;s degree in IT from Uni of Melbourne </div>
               </section>
-              <div className="font-extralight">Languages</div>
+              <div className="font-extralight">Education</div>
             </div>
-            <div className="bg-white w-full h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
+            <div className="bg-[#FBD5A5] w-full h-50 flex flex-col items-start justify-between p-3 rounded-xl text-[#001E29]">
               <Image
-                src="/darkIcon.jpg"
-                alt="dark icon"
+                src="/projectsIcon.jpg"
+                alt="projects Icon"
                 width={30}
                 height={30}
               />
               <section className="font-bold">
-                <div>HTML, CSS, JavaScript, React Js, Next Js </div>
+                <div>Built more than 5 projects</div>
               </section>
-              <div className="font-extralight">Languages</div>
+              <div className="font-extralight">Projects</div>
             </div>
           </section>
-          <section className="flex flex-col gap-2">
+          {/* <section className="flex flex-col gap-2">
             <div className="text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] text-center md:text-start">
               Tools i use
             </div>
@@ -78,7 +83,7 @@ const Intro = () => {
                 <Image src="/vsIcon.jpg" alt="VS icon" width={30} height={30} />
               </div>
             </section>
-          </section>
+          </section> */}
         </section>
       </section>
     </section>

@@ -3,7 +3,12 @@ import { UseContext } from "../utils/UseContextProvider";
 
 // src/pages/components/Mode.tsx
 const Mode = () => {
-  const { handleClickMenu } = useContext(UseContext);
+  const { handleClickMenu, checkboxRef } = useContext(UseContext);
+
+  if (typeof window !== "undefined") {
+    window.menuCheckboxRef = checkboxRef;
+  }
+
   return (
     <section className="flex  gap-5 md:pr-2 pr-4">
       <label className="swap swap-rotate hover:scale-105 transition duration-200 ease-in-out">
@@ -30,7 +35,7 @@ const Mode = () => {
       </label>
       <label className=" lg:hidden btn btn-circle swap swap-rotate hover:scale-105 transition duration-200 ease-in-out">
         {/* this hidden checkbox controls the state */}
-        <input type="checkbox" />
+        <input type="checkbox" ref={checkboxRef} />
 
         {/* hamburger icon */}
         <svg

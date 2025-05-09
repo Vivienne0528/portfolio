@@ -3,18 +3,17 @@ const MyService = () => {
   return (
     <section className="flex flex-col items-center gap-5 pt-50 w-full">
       <div className="text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem]">
-        What i offers
+        What i do
       </div>
       <div className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent text-3xl md:text-4xl font-bold">
-        My Service
+        My Tools
       </div>
       <div className="">
         <p className="w-full max-w-150 text-center text-sm md:text-xl">
-          I am a frontend developer from California, USA with 10 years of
-          experience in multiple companies like Microsoft, Tesla and Apple.
+          Explore the technologies and tools I use.
         </p>
       </div>
-      <section className="py-4 gap-2  lg:gap-10 md:5 w-full grid grid-cols-2 md:grid-cols-4">
+      <section className="py-4 gap-4  lg:gap-10 md:5 w-full grid grid-cols-2 md:grid-cols-4">
         <div className="bg-[#FBD5A5] text-[#001E29] w-full h-62 flex flex-col items-start justify-between p-5 md:p-3 rounded-xl">
           <Image src="/earth.jpg" alt="earth Icon" width={40} height={40} />
           <div className="font-medium text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem] ">

@@ -1,10 +1,17 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useRef, useState } from "react";
 
 export const UseContext = createContext(null);
 
+declare global {
+  interface Window {
+    menuCheckboxRef: RefObject<HTMLInputElement>;
+  }
+}
 const UseContextProvider = ({ children }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpened, setIsMenuOpened] = useState(false);
+  const [activeSection, setActiveSection] = useState<string>("");
+  const checkboxRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +26,21 @@ const UseContextProvider = ({ children }) => {
     console.log(isMenuOpened);
   };
 
+  const scrollToSection = (
+    section: string,
+    ref: React.RefObject<HTMLDivElement>,
+  ) => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+    setActiveSection(section); // 设置当前激活的按钮
+    setIsMenuOpened(false);
+    console.log(`scroll to ${section}`);
+
+    const checkbox = window.menuCheckboxRef;
+    if (checkbox?.current) {
+      checkbox.current.checked = false;
+    }
+  };
+
   return (
     <UseContext.Provider
       value={{
@@ -27,6 +49,9 @@ const UseContextProvider = ({ children }) => {
         isMenuOpened,
         setIsMenuOpened,
         handleClickMenu,
+        checkboxRef,
+        activeSection,
+        scrollToSection,
       }}
     >
       {children}

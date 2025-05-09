@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
+import { useRefStore } from "../utils/useRefStore";
 
 const GetInTouch = () => {
+  const { contactRef } = useContext(useRefStore);
   return (
-    <section className="bg-[#FBD5A5] text-[#001E29] flex flex-col items-center gap-5 mt-25 p-4  w-full rounded-xl">
+    <section
+      ref={contactRef}
+      className="bg-[#FBD5A5] text-[#001E29] flex flex-col items-center gap-5 mt-50 p-4  w-full rounded-xl"
+    >
       <div className="text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem]">
         Connect with me
       </div>
-      <div className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent text-3xl md:text-4xl font-bold leading-[2.25rem] md:leading-[2.5rem]">
+      <div
+        ref={contactRef}
+        className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent text-3xl md:text-4xl font-bold leading-[2.25rem] md:leading-[2.5rem]"
+      >
         Get in touch
       </div>
       <div className="flex flex-col items-center text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]">
@@ -34,7 +42,7 @@ const GetInTouch = () => {
       </div>
 
       <button className="w-full btn btn-l md:btn-xl border-0 bg-gradient-to-r from-amber-500 to-orange-500 hover:scale-105 shadow-sm hover:shadow-xl transition duration-200 ease-in-out text-[#FFFFFF] text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] rounded-[50px] md:w-50">
-        Contact me →
+        Send to me →
       </button>
     </section>
   );
