@@ -234,6 +234,22 @@ const Bottom = ()=>{
 };
 const __TURBOPACK__default__export__ = Bottom;
 }}),
+"[project]/src/pages/utils/useAuth.tsx [ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+// src/utils/useAuth.tsx
+__turbopack_context__.s({
+    "useAuth": (()=>useAuth)
+});
+const useAuth = ()=>{
+    const messageSubmit = ()=>{};
+    return {
+        messageSubmit
+    };
+};
+}}),
 "[project]/src/pages/components/GetInTouch.tsx [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -245,11 +261,15 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$utils$2f$useRefStore$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/pages/utils/useRefStore.tsx [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$utils$2f$useAuth$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/pages/utils/useAuth.tsx [ssr] (ecmascript)");
+;
 ;
 ;
 ;
 const GetInTouch = ()=>{
     const { contactRef } = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$utils$2f$useRefStore$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["useRefStore"]);
+    const { handleSubmit } = useForm();
+    const { messageSubmit } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$utils$2f$useAuth$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["useAuth"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
         ref: contactRef,
         className: "bg-[#FBD5A5] text-[#001E29] flex flex-col items-center gap-5 mt-50 p-4  w-full rounded-xl",
@@ -259,7 +279,7 @@ const GetInTouch = ()=>{
                 children: "Connect with me"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                lineNumber: 11,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -268,7 +288,7 @@ const GetInTouch = ()=>{
                 children: "Get in touch"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                lineNumber: 14,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -279,10 +299,11 @@ const GetInTouch = ()=>{
                         children: "I'd love to hear from you! If you have any questions, comments or feedback, please use the form below."
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                        lineNumber: 21,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("form", {
+                        onSubmit: handleSubmit(messageSubmit),
                         className: "flex gap-4 h-10 w-full my-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -291,7 +312,7 @@ const GetInTouch = ()=>{
                                 className: "input bg-white text-[#001E29] rounded-[5px] w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                                lineNumber: 27,
+                                lineNumber: 30,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("input", {
@@ -300,13 +321,13 @@ const GetInTouch = ()=>{
                                 className: "input bg-white text-[#001E29] rounded-[5px] w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                                lineNumber: 32,
+                                lineNumber: 35,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                        lineNumber: 26,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("textarea", {
@@ -314,13 +335,13 @@ const GetInTouch = ()=>{
                         placeholder: "Enter your message"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                        lineNumber: 38,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                lineNumber: 20,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -328,13 +349,13 @@ const GetInTouch = ()=>{
                 children: "Send to me →"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/GetInTouch.tsx",
-                lineNumber: 44,
+                lineNumber: 47,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/components/GetInTouch.tsx",
-        lineNumber: 7,
+        lineNumber: 10,
         columnNumber: 5
     }, this);
 };
@@ -1501,4 +1522,4 @@ __turbopack_async_result__();
 
 };
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__de705627._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__8cfb769b._.js.map

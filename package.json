@@ -10,13 +10,16 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
     "@react-spring/web": "^9.7.5",
     "daisyui": "^5.0.35",
     "motion": "^12.9.7",
     "next": "15.3.1",
     "ogl": "^1.0.11",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.3",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
