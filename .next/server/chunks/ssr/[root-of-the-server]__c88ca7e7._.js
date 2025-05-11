@@ -1011,6 +1011,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$utils$2f$use
 ;
 ;
 ;
+;
+const slides = [
+    "/figma.png",
+    "/socially.png",
+    "/pizza.png",
+    "/portfolio.png"
+];
 const MyLatestWork = ()=>{
     const { projectRef, contactRef } = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$utils$2f$useRefStore$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["useRefStore"]);
     const scrollToContact = ()=>{
@@ -1019,16 +1026,19 @@ const MyLatestWork = ()=>{
         });
         console.log("scroll to project");
     };
+    const [currentIndex, setCurrentIndex] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(0);
+    const prevSlide = ()=>setCurrentIndex((prev)=>(prev - 1 + slides.length) % slides.length);
+    const nextSlide = ()=>setCurrentIndex((prev)=>(prev + 1) % slides.length);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
         ref: projectRef,
-        className: "flex flex-col items-center gap-5 pt-50",
+        className: "flex flex-col items-center gap-5 pt-30",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "text-xl md:text-2xl leading-[1.75rem] md:leading-[2rem]",
                 children: "My portfolio"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyLatestWork.tsx",
-                lineNumber: 15,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1036,30 +1046,81 @@ const MyLatestWork = ()=>{
                 children: "My latest work"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyLatestWork.tsx",
-                lineNumber: 18,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                 className: "w-full max-w-200 text-center text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem]",
-                children: "Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development."
+                children: "Welcome to my full-stack web development portfolio! Explore a collection of projects showcasing my expertise in both front-end and back-end development, from intuitive user interfaces to robust server-side solutions."
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyLatestWork.tsx",
-                lineNumber: 22,
+                lineNumber: 31,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
+                className: "carousel w-full",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                    className: "carousel-item relative w-full",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                            src: slides[currentIndex],
+                            className: "w-full"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/components/MyLatestWork.tsx",
+                            lineNumber: 37,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            className: "absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                    onClick: prevSlide,
+                                    className: "btn btn-circle",
+                                    children: "❮"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/components/MyLatestWork.tsx",
+                                    lineNumber: 39,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
+                                    onClick: nextSlide,
+                                    className: "btn btn-circle",
+                                    children: "❯"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/components/MyLatestWork.tsx",
+                                    lineNumber: 40,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/pages/components/MyLatestWork.tsx",
+                            lineNumber: 38,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/pages/components/MyLatestWork.tsx",
+                    lineNumber: 36,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/pages/components/MyLatestWork.tsx",
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                 onClick: scrollToContact,
-                className: " btn btn-l md:btn-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:scale-105 shadow-sm hover:shadow-xl transition duration-200 ease-in-out text-[#FFFFFF] text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] rounded-[50px] w-full md:w-50 mt-50",
+                className: " btn btn-l md:btn-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:scale-105 shadow-sm hover:shadow-xl transition duration-200 ease-in-out text-[#FFFFFF] text-[16px] md:text-xl leading-[1.5rem] md:leading-[1.75rem] rounded-[50px] w-full md:w-50 mt-10",
                 children: "Contact me →"
             }, void 0, false, {
                 fileName: "[project]/src/pages/components/MyLatestWork.tsx",
-                lineNumber: 27,
+                lineNumber: 46,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/components/MyLatestWork.tsx",
-        lineNumber: 11,
+        lineNumber: 20,
         columnNumber: 5
     }, this);
 };
