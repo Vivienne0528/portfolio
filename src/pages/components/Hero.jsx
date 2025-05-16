@@ -1,7 +1,7 @@
 import Image from "next/image";
 import SplitText from "../utils/SplitText";
 import { useContext } from "react";
-import { useRefStore } from "../utils/useRefStore";
+import { useRefStore } from "../../hooks/useRefStore";
 
 const Hero = () => {
   const handleAnimationComplete = () => {

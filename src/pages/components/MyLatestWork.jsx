@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { useRefStore } from "../utils/useRefStore";
+import { useRefStore } from "../../hooks/useRefStore";
 import { useState } from "react";
 
 const slides = ["/figma.png", "/socially.png", "/pizza.png", "/portfolio.png"];

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useContext } from "react";
 import { UseContext } from "../utils/UseContextProvider";
-import { useRefStore } from "../utils/useRefStore";
+import { useRefStore } from "../../hooks/useRefStore";
 
 const Bottom = () => {
   const { scrollToSection } = useContext(UseContext);

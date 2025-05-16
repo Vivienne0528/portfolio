@@ -1083,16 +1083,14 @@ attempted value: ${n}
             });
         }
         required(e) {
-          return super
-            .required(e)
-            .withMutation((t) =>
-              t.test({
-                message: e || _.required,
-                name: "required",
-                skipAbsent: !0,
-                test: (e) => !!e.length,
-              }),
-            );
+          return super.required(e).withMutation((t) =>
+            t.test({
+              message: e || _.required,
+              name: "required",
+              skipAbsent: !0,
+              test: (e) => !!e.length,
+            }),
+          );
         }
         notRequired() {
           return super

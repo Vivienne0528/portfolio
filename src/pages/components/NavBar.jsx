@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { UseContext } from "../utils/UseContextProvider";
 import Mode from "./Mode";
-import { useRefStore } from "../utils/useRefStore";
+import { useRefStore } from "../../hooks/useRefStore";
 
 const NavBar = () => {
   const { isScrolled, isMenuOpened, activeSection, scrollToSection } =
