@@ -1,7 +1,7 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
     typeof document === "object" ? document.currentScript : undefined,
     {},
-    {"otherChunks":["static/chunks/node_modules_next_dist_f1d2d383._.js","static/chunks/node_modules_react_1cad9b0b._.js","static/chunks/node_modules_react-dom_cjs_react-dom_development_ab7e073c.js","static/chunks/node_modules_react-dom_f14d0471._.js","static/chunks/node_modules_3bfdc6a4._.js","static/chunks/[root-of-the-server]__659f318b._.js",{"path":"static/chunks/src_styles_globals_4738091e.css","included":["[project]/src/styles/globals.css [client] (css)"]}],"runtimeModuleIds":["[project]/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js [client] (ecmascript)","[project]/node_modules/next/dist/client/next-dev-turbopack.js [client] (ecmascript)","[project]/src/pages/_app (hmr-entry)"]}
+    {"otherChunks":["static/chunks/[root-of-the-server]__6ac7272c._.js","static/chunks/node_modules_next_a0b9000c._.js","static/chunks/node_modules_react_1cad9b0b._.js","static/chunks/node_modules_react-dom_cjs_react-dom_development_ab7e073c.js","static/chunks/node_modules_react-dom_f14d0471._.js","static/chunks/node_modules_@react-spring_core_dist_react-spring_core_modern_mjs_c982ab4b._.js","static/chunks/node_modules_9cdbd586._.js"],"runtimeModuleIds":["[project]/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js [client] (ecmascript)","[project]/node_modules/next/dist/client/next-dev-turbopack.js [client] (ecmascript)","[project]/src/pages/index (hmr-entry)"]}
 ]);
 (() => {
 if (!Array.isArray(globalThis.TURBOPACK)) {
@@ -1681,4 +1681,4 @@ globalThis.TURBOPACK_CHUNK_LISTS = { push: registerChunkList };
 })();
 
 
-//# sourceMappingURL=src_pages__app_43fcd869._.js.map
+//# sourceMappingURL=src_pages_index_a2af676e._.js.map
