@@ -2,7 +2,7 @@
   globalThis.TURBOPACK_CHUNK_LISTS || []).push({
   script: typeof document === "object" ? document.currentScript : undefined,
   chunks: [
-    "static/chunks/[root-of-the-server]__dccb9573._.js",
+    "static/chunks/[root-of-the-server]__6ac7272c._.js",
     "static/chunks/node_modules_next_a0b9000c._.js",
     "static/chunks/node_modules_react_1cad9b0b._.js",
     "static/chunks/node_modules_react-dom_cjs_react-dom_development_ab7e073c.js",
