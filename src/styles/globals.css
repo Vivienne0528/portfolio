@@ -1,5 +1,47 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes:
+    light --default,
+    abyss --dark;
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #fbf8ef;
+  --color-secondary: #001e29;
+}
 
 body {
   font-family: "Poppins", "Noto serif", serif, sans-serif;
+}
+
+@layer utilities {
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 2s ease-out forwards;
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
 }
