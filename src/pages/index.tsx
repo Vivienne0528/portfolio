@@ -1,10 +1,10 @@
-import Bottom from "./components/Bottom";
-import GetInTouch from "./components/GetInTouch";
-import Hero from "./components/Hero";
-import Intro from "./components/Intro";
-import MyLatestWork from "./components/MyLatestWork";
-import MyService from "./components/MyService";
-import NavBar from "./components/NavBar";
+import Bottom from "../components/Bottom";
+import GetInTouch from "../components/GetInTouch";
+import Hero from "../components/Hero";
+import Intro from "../components/Intro";
+import MyLatestWork from "../components/MyLatestWork";
+import MyService from "../components/MyService";
+import NavBar from "../components/NavBar";
 import UseContextProvider from "./utils/UseContextProvider";
 
 export default function Home() {

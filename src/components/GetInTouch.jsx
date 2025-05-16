@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
-import { useRefStore } from "../utils/useRefStore";
-import { useAuth } from "../utils/useAuth";
+import { useRefStore } from "../hooks/useRefStore";
+import { useAuth } from "../hooks/useAuth";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -17,7 +17,7 @@ const GetInTouch = () => {
     captchaToken,
     isCoolDown,
     coolDownMessage,
-    setCaptchaToken
+    setCaptchaToken,
   } = useAuth();
 
   const {
@@ -92,7 +92,7 @@ const GetInTouch = () => {
           Send to me →
         </button>
         <ReCAPTCHA
-          sitekey="6LcFozcrAAAAAB9nUS1WeuilEhBld64y9gqmkHV7"
+          sitekey="6Le1tTwrAAAAANuqmp2Z6e6rwYpiULPfYIUWOPpq"
           onChange={onChange}
           onExpired={() => setCaptchaToken(null)}
         />
