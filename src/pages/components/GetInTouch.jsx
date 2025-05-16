@@ -17,7 +17,7 @@ const GetInTouch = () => {
     captchaToken,
     isCoolDown,
     coolDownMessage,
-    setCaptchaToken
+    setCaptchaToken,
   } = useAuth();
 
   const {

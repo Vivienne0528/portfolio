@@ -25,7 +25,7 @@ export const useAuth = () => {
         clearInterval(myInterval);
       }
       setCoolDownMessage(
-        `⏳ Please wait ${prev - 1} seconds before sending another message.`
+        `⏳ Please wait ${prev - 1} seconds before sending another message.`,
       );
       return prev - 1;
     });
@@ -47,7 +47,7 @@ export const useAuth = () => {
     setCoolDownSeconds(30);
     if (isCoolDown) {
       setCoolDownMessage(
-        `⏳ Please wait ${coolDownSeconds} seconds before sending another message.`
+        `⏳ Please wait ${coolDownSeconds} seconds before sending another message.`,
       );
       return;
     }
