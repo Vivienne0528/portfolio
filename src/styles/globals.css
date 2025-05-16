@@ -30,6 +30,7 @@ body {
   .animate-fade-in-up {
     animation: fade-in-up 2s ease-out forwards;
   }
+
   @keyframes float {
     0%,
     100% {
