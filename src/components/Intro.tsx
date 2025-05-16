@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useRefStore } from "../../hooks/useRefStore";
+import { useRefStore } from "../hooks/useRefStore";
 import { useContext } from "react";
 const Intro = () => {
   const { aboutRef } = useContext(useRefStore);

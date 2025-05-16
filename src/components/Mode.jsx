@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { UseContext } from "../utils/UseContextProvider";
+import { UseContext } from "../pages/utils/UseContextProvider";
 
 // src/pages/components/Mode.tsx
 const Mode = () => {
