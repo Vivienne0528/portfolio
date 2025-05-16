@@ -92,7 +92,7 @@ const GetInTouch = () => {
           Send to me →
         </button>
         <ReCAPTCHA
-          sitekey="6LcFozcrAAAAAB9nUS1WeuilEhBld64y9gqmkHV7"
+          sitekey="6Le1tTwrAAAAANuqmp2Z6e6rwYpiULPfYIUWOPpq"
           onChange={onChange}
           onExpired={() => setCaptchaToken(null)}
         />
